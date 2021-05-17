@@ -1,0 +1,8 @@
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\bin\Debug\netcoreapp3.1\DomainRepos.deps.json
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\bin\Debug\netcoreapp3.1\DomainRepos.dll
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\obj\Debug\netcoreapp3.1\DomainRepos.AssemblyInfoInputs.cache
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\obj\Debug\netcoreapp3.1\DomainRepos.AssemblyInfo.cs
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\bin\Debug\netcoreapp3.1\DomainRepos.pdb
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\obj\Debug\netcoreapp3.1\DomainRepos.csproj.CoreCompileInputs.cache
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\obj\Debug\netcoreapp3.1\DomainRepos.dll
+C:\Users\kayleigh\source\repos\WebService\DomainRepos\obj\Debug\netcoreapp3.1\DomainRepos.pdb

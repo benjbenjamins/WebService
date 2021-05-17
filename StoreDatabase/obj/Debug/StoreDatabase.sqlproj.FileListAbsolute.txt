@@ -1,0 +1,8 @@
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\bin\Debug\StoreDatabase.dacpac
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\StoreDatabase.sqlprojAssemblyReference.cache
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\Model.xml
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\refactor.xml
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\postdeploy.sql
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\predeploy.sql
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\StoreDatabase.dll
+C:\Users\kayleigh\source\repos\WebService\StoreDatabase\obj\Debug\StoreDatabase.pdb

@@ -1,0 +1,97 @@
+﻿@page
+@model APIService.IndexModel
+@{
+}
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		@*<div class="row">
+			<div class="col-md-4">
+				<button id="Featured">Recall Featured Products</button>
+				<div class="mini-container"></div>
+			</div>
+			<div class="col-md-4">
+				<button id="Category">Recall Category Name</button>
+				<div class="mini-container"></div>
+			</div>
+			<div class="col-md-4">
+				<button id="Products">Recall Products By Category</button>
+				<div class="mini-container"></div>
+			</div>
+		</div>*@
+		<h2 style="text-align:center;">API Commands</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Return all products</h3>
+				<p>/Home/ReturnProduct?identifier=null</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnProduct?Identifier=">Click Here...</a>
+
+				<h3>Return product byId</h3>
+				<p>/ReturnProduct?identifier={Product.Id}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnProduct?Identifier=8">Click Here...</a>
+
+				<h3>Return Product By Name</h3>
+				<p>/ReturnProduct?identifier={Product.Name}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnProduct?Identifier=Lamp">Click Here...</a>
+
+			</div>
+			<div class="col-md-4">
+				<h3>Return Featured Product</h3>
+				<p>/ReturnFeaturedProducts?SKU1={Product.SKU}&SKU1={Product.SKU}&SKU1{Product.SKU}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnFeaturedProducts?SKU1=1&SKU2=2&SKU3=3">Click Here...</a>
+
+				<h3>Return Product By Category</h3>
+				<p>/ReturnCategory?Identifier={Category.CategoryId}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnCategory?Identifier=1">Click Here...</a>
+			</div>
+			<div class="col-md-4">
+				<h3>Return Categories</h3>
+				<p>/ReturnCategory?identifier=null</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnCategory?Identifier=">Click Here...</a>
+
+				<h3>Return Categories by Id</h3>
+				<p>/ReturnCategory?identifier={Category.Id}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnCategory?Identifier=1">Click Here...</a>
+
+				<h3>Return Category By Name</h3>
+				<p>/Home/ReturnCategory?identifier={Category.Name}</p>
+				<h4>Example</h4>
+				<a href="Home/ReturnCategory?Identifier=Electronics">Click Here...</a>
+
+				@*<h3>Return Category By Sku</h3>
+		<p>/Home/ReturnCategory?identifier={Product.SKU}</p>
+		<h4>Example</h4>
+		<ah href="/ReturnCategory?Identifier=11111"></ah>*@
+			</div>
+		</div>
+	</div>
+	<style>
+		.mini-container 
+		{
+			height:250px;
+			overflow-y:scroll;
+		}
+	</style>
+	<script>
+		//$(document).ready(function () {
+		//	$.ajax({
+		//		url: "",
+		//		contentType: "application/json",
+		//		dataType: 'json',
+		//		success: function (result) {
+		//			console.log(result);
+		//		}
+		//	})
+		//});
+	</script>
+</body>
